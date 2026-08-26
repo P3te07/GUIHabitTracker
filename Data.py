@@ -24,7 +24,7 @@ def load_data():
 
 def save_data(data):
     try:
-        with open('data.json', 'a') as outfile:
+        with open('data.json', 'w') as outfile:
             json.dump(data, outfile, indent=4)
         result = True
     except TypeError:
