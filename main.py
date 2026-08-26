@@ -1,3 +1,3 @@
 import Data
 
-Data.LoadData()
+loader = Data.load_data()
